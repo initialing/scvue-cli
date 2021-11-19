@@ -1,0 +1,22 @@
+{
+    "name": "scvue-cli",
+    "version": "1.0.0",
+    "description": "A simple CLI for scaffolding Vue3+vite projects",
+    "author": "sczheng",
+    "preferGlobal": true,
+    "bin": {
+        "scvue": "bin/index.js"
+    },
+    "scripts": {
+        "preinstall": "node ./script/preinstall.js"
+    },
+    "dependencies": {
+        "commander": "^8.3.0",
+        "download-github-repo": "^0.1.4",
+        "khaos": "^0.9.3",
+        "parse-condition-string": "^1.0.0",
+        "rimraf": "^3.0.2",
+        "uid": "^2.0.0"
+    },
+    "main": "./bin/index.js"
+}
